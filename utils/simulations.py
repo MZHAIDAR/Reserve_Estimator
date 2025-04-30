@@ -1,8 +1,8 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
+
 
 def simulate_reserves(N, params, dist_type="Uniform"):
     def vary_net_pay(min_val, max_val):
